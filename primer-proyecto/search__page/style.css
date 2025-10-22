@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(16, 25, 34);
+    color: white;
+
+}
+
+body > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: rgb(10, 38, 66);
+
+    div {
+        display: flex;
+        gap: 15px;
+    }
+
+    a {
+        color: rgba(209, 213, 219);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(75, 75, 134);
+    }
+    nav {
+        align-self: center;
+    }
+    h2 {
+        align-self: center;
+    }
+
+}
+
+search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    gap: 1.5rem;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: baseline;
+
+        
+
+        h2 {
+            align-self: center;
+        }
+
+        p {
+            align-self: center;
+        }
+
+        select {
+            background-color: rgba(36, 45, 58);
+            color: white;
+            height: 1.75rem;
+            border-radius: 10px;
+            border: black;
+        }
+        form {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            padding: 5px;
+            min-width: 500px;
+            background-color: rgba(24, 33, 45);
+            border-radius: 10px;
+            height: 2rem;
+            border: 0.5px solid rgb(163, 163, 163);
+        }
+        input {
+            min-width: 95%;
+            background-color: rgba(24, 33, 45);
+            border: none;
+            
+        }
+
+        input:focus {
+            border: none;
+            border-color: black;
+        }
+    }
+}
+
+h3 {
+    align-self: baseline;
+}
+footer {
+    background-color: rgb(34, 85, 129);
+    padding: 1.5rem;
+
+}
+
+.trabajos {
+    border: 1px solid rgba(34, 43, 56);
+    border-radius: 0.5rem;
+
+}
+
+article {
+    border-bottom: 1px solid rgba(34, 43, 56);
+    padding: 1rem;
+    width: 500px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    
+}
+
+article div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+article button {
+    border: none;
+    height: 2rem;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgba(17, 115, 212);
+    color: white;
+    align-self: center;
+}
+
+article button:hover {
+    background-color: #73d411;
+    color: black;
+}

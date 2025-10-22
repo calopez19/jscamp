@@ -106,13 +106,14 @@ footer {
 .trabajos {
     border: 1px solid rgba(34, 43, 56);
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
 
 }
 
 article {
     border-bottom: 1px solid rgba(34, 43, 56);
     padding: 1rem;
-    width: 500px;
     display: flex;
     gap: 3rem;
     justify-content: space-between;
@@ -128,7 +129,8 @@ article div:first-child {
 article button {
     border: none;
     height: 2rem;
-    width: 300px;
+    min-width: 100px;
+    max-width: 300px;
     border-radius: 7px;
     background-color: rgba(17, 115, 212);
     color: white;
